@@ -51,7 +51,7 @@ class AnnotationHandlerMappingTest {
     }
 
     @Test
-    void givenWrongUrl_whenGetHandler_thenReturnNull()  {
+    void givenWrongUrl_whenGetHandler_thenReturnNull() {
         final var request = mock(HttpServletRequest.class);
         String wrongUrl = "/wrong-url";
 
